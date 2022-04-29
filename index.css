@@ -2,11 +2,6 @@ body {
     box-sizing: border-box;
 }
 
-marquee {
-    font-size: 25px;
-    color: darkorchid;
-}
-
 
 /* header_fnav */
 
@@ -20,51 +15,62 @@ marquee {
     width: 100%;
     top: 0;
     z-index: 9;
+    
+}#xyz{
+    text-align: center;
+    color: aquamarine;
+    font-weight: 600;
 }
 
+#zyx{
+    color:red;
+    text-align: center;
+    font-weight: 600;
+}
 #header_fnav a {
     text-decoration: none;
     color: black;
 }
 
+span{
+    color:red;
+    font-weight: 700;
 
+}
 /* header */
 
 .header {
-    background-color: brown;
+    background-color: #ffc107;
     overflow: hidden;
     transition: 0.4s;
     position: sticky;
     width: 100%;
     top: 0;
     z-index: 9;
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .header a {
     float: left;
     color: black;
     text-align: center;
-    padding: 12px;
+    padding: 18px;
     text-decoration: none;
     font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
+    line-height: 0px;
+    font-weight: 700;
+}
+
+.header-right a:hover {
+    background-color: #ffffff;
+    
 }
 
 .header a.logo {
     font-size: 25px;
     font-weight: bold;
-    color: chocolate;
-}
-
-.header a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.header a.active {
-    background-color: dodgerblue;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .header-right {
@@ -127,7 +133,7 @@ marquee {
 input[type=text],
 select,
 textarea {
-    width: 100%;
+    width: 186%;
     padding: 12px;
     border: 1px solid #ccc;
     margin-top: 6px;
@@ -141,6 +147,7 @@ input[type=submit] {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    width:214%;
 }
 
 input[type=submit]:hover {
@@ -148,6 +155,39 @@ input[type=submit]:hover {
 }
 
 
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-vector/business-isometric-landing-page-workplace-interior-with-people-work-computers-gadgets-brainstorm-coworking-cooperation-area-teamwork-office-lifestyle-3d-vector-line-art-web-banner_107791-8547.jpg?t=st=1651231604~exp=1651232204~hmac=cac5571572b494b6ff2a5dc443ac54c375c1b8671ca138b6369dde3de1d71326&w=826");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
 /* Style the container/contact section */
 
 .container {
@@ -155,6 +195,7 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 10px;
     width: 40%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     background-image: url(D:\projects\robin\img\freelancerwork.jpg);
 }
 
@@ -198,15 +239,20 @@ input[type=submit]:hover {
     height: 200px; */
     padding: 25px;
     margin: 15px;
-    border: 2px solid green;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .imgclass {
     border-radius: 20px;
-    width: 140px;
-    height: 100px;
+    width: 265px;
+    height: 260px;
+    transition: transform .2s
 }
 
+.imgclass:hover{
+    transform: scale(1.04)
+    
+}
 #cards h4 {
     font-size: 10px;
     color: chocolate;
@@ -250,18 +296,18 @@ input[type=submit]:hover {
     height: 200px; */
     padding: 15px;
     margin: 15px;
-    border: 1px solid rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: transform .2s;
+}
+
+#cards_org:hover{
+    
 }
 
 .imgclass {
     border-radius: 20px;
-    width: 240px;
-    height: 200px;
-}
-
-#cards_org h4 {
-    font-size: 25pxpx;
-    color: rgb(210, 30, 30);
+    width: 265px;
+    height: 260px;
 }
 
 #cards_org p {
