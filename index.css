@@ -167,7 +167,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: yellow;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -497,7 +497,7 @@ footer {
 }
 
 #span1{
-    color:red;
+    color:yellow;
 }
 
 .side{
