@@ -85,6 +85,7 @@ span {
         display: block;
         text-align: left;
     }
+
     .header-right {
         float: none;
     }
@@ -155,12 +156,14 @@ span {
 input[type=text],
 select,
 textarea {
-    width: 186%;
-    padding: 12px;
+    width: 96%;
+    padding: 16px;
+    height: 67%;
     border: 1px solid #ccc;
     margin-top: 6px;
-    margin-bottom: 16px;
+    margin-bottom: 11px;
     resize: vertical;
+    font-size: 13px;
 }
 
 input[type=submit] {
@@ -169,7 +172,7 @@ input[type=submit] {
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-    width: 214%;
+    width: 97%;
 }
 
 input[type=submit]:hover {
@@ -246,6 +249,7 @@ input[type=submit]:hover {
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 600px) {
+
     .column,
     input[type=submit] {
         width: 100%;
@@ -319,7 +323,6 @@ input[type=submit]:hover {
     transition: transform .2s;
 }
 
-#cards_org:hover {}
 
 .imgclass {
     border-radius: 20px;
@@ -467,3 +470,72 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+.img1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 560;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://img.freepik.com/free-photo/colleagues-studying-together-exam_23-2149038427.jpg?t=st=1651643784~exp=1651644384~hmac=912751cbee9b47e13cd58cffd621ec888619d23700567693939c585c47341cd1&w=826");
+    background-attachment: fixed;
+
+}
+
+.form1 {
+    position: absolute;
+    right: 22px;
+    top: 30px;
+    background-color: black;
+    background-size: 600px 200px;
+    background-repeat: no-repeat;
+    padding: 21px;
+    width: 26%;
+    
+
+
+}
+
+#span1{
+    color:red;
+}
+
+.side{
+    position: absolute;
+    top: 39px;
+    left:40px;
+    color: #e7e7e7;
+    font-size: 24px;
+}
+
+.side2{
+    position: absolute;
+    top: 6rem;
+    color: yellow;
+    left: 3rem;
+    font-size: 4rem;
+
+}
+
+.side3{
+    position: absolute;
+    top: 17rem;
+    left: 3rem;
+    color: white;
+}
+
+.list{
+    list-style-type: none;
+    color: white;
+    position: absolute;
+    top: 23rem;
+    font-size: 3rem;
+    
+}
+
+.list1{
+    display:inline;
+    padding: 68px;
+}
+
+
