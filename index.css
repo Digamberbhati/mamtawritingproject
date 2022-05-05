@@ -65,7 +65,7 @@ span {
 }
 
 .header-right a:hover {
-    background-color: brown;
+  border-bottom: 2px solid red;
 }
 
 .header .logo {
@@ -364,7 +364,7 @@ footer {
 .footer-content {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-start;
     flex-direction: column;
     text-align: center;
 }
@@ -524,18 +524,13 @@ footer {
     color: white;
 }
 
-.list{
-    list-style-type: none;
-    color: white;
+
+
+.fa-image{
     position: absolute;
-    top: 23rem;
-    font-size: 3rem;
-    
+    left: 20px;
+    top: 27rem;
+    font-size: 23px;
+    color: white;
 }
-
-.list1{
-    display:inline;
-    padding: 68px;
-}
-
 
