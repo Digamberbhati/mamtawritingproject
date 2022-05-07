@@ -19,7 +19,7 @@ body {
 
 #xyz {
     text-align: center;
-    color: aquamarine;
+    color: rgb(0, 0, 0);
     font-weight: 600;
 }
 
@@ -27,6 +27,7 @@ body {
     color: red;
     text-align: center;
     font-weight: 600;
+    margin-top: 5rem;
 }
 
 #header_fnav a {
@@ -149,7 +150,10 @@ span {
     }
 }
 
-
+.spa{
+    color:red;
+    border-bottom:2px slid red;
+}
 /* Style inputs */
 
 input[type=text],
@@ -166,7 +170,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: yellow;
+    background-color: rgb(255, 0, 0);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -293,6 +297,7 @@ input[type=submit]:hover {
     color: black;
 }
 
+/*
 .cards_link {
     color: blue;
     text-decoration: none;
@@ -303,19 +308,31 @@ input[type=submit]:hover {
     color: rgb(22, 15, 15);
 }
 
+
+.cards_link {
+    color: #64968c;
+    text-decoration: none;
+}
+
+.cards_link:hover {
+    color: rgb(22, 15, 15);
+}
+
+@media (max-width:500px) {}
+
 @media (max-width:500px) {
     #card {
         display: grid;
-        /* width: 320px;
-        height: 200px; */
+         width: 320px;
+        height: 200px; 
         padding: 25px;
         margin: 15px;
         border: 1px dotted green;
     }
 }
 
+*/
 
-/* orgination cards */
 
 #cards_org {
     display: flex;
@@ -341,16 +358,7 @@ input[type=submit]:hover {
     color: rgb(32, 24, 15);
 }
 
-.cards_link {
-    color: #64968c;
-    text-decoration: none;
-}
 
-.cards_link:hover {
-    color: rgb(22, 15, 15);
-}
-
-@media (max-width:500px) {}
 
 
 /* footer */
@@ -497,7 +505,7 @@ footer {
 }
 
 #span1 {
-    color: yellow;
+    color: rgb(255, 0, 0);
 }
 
 .side {
@@ -511,7 +519,7 @@ footer {
 .side2 {
     position: absolute;
     top: 6rem;
-    color: yellow;
+    color: rgb(255, 0, 0);
     left: 3rem;
     font-size: 4rem;
 }
@@ -530,3 +538,24 @@ footer {
     font-size: 23px;
     color: white;
 }
+
+.choose{
+    text-align: center;
+    margin-top: 9rem;
+    font-size: 16px;
+    margin-bottom: 5rem;
+
+}
+
+.why{
+    font-size: 40px;
+    color:black;
+    border-bottom: red;
+
+}
+
+.us{
+    color:red;
+    font-size: 40px;
+}
+
