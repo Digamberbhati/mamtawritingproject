@@ -18,9 +18,10 @@ body {
 }
 
 #xyz {
-    text-align: center;
     color: rgb(0, 0, 0);
     font-weight: 600;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 #zyx {
@@ -297,6 +298,28 @@ input[type=submit]:hover {
     color: black;
 }
 
+#center{
+ text-align: center;
+ margin-top: 2rem;
+ font-size: 41px;
+ font-weight: 700;
+color:black;
+font-family: 'Oswald', sans-serif;
+}
+
+.mam{
+    color:red;
+}
+
+#head{
+margin-left:106px;
+margin-top: 29px;
+}
+
+.heading{
+    margin-left: 118px;
+    margin-top: 34px;
+}
 /*
 .cards_link {
     color: blue;
@@ -455,6 +478,7 @@ footer {
 
 .footer-menu {
     float: right;
+    z-index:2;
 }
 
 .footer-menu ul {
@@ -491,11 +515,12 @@ footer {
     height: 560;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://img.freepik.com/free-photo/colleagues-studying-together-exam_23-2149038427.jpg?t=st=1651643784~exp=1651644384~hmac=912751cbee9b47e13cd58cffd621ec888619d23700567693939c585c47341cd1&w=826");
     background-attachment: fixed;
+    width:102%;
 }
 
 .form1 {
     position: absolute;
-    right: 22px;
+    right: 70px;
     top: 30px;
     background-color: black;
     background-size: 600px 200px;
@@ -541,7 +566,7 @@ footer {
 
 .choose{
     text-align: center;
-    margin-top: 9rem;
+    margin-top: 19rem;
     font-size: 16px;
     margin-bottom: 5rem;
 
@@ -559,3 +584,19 @@ footer {
     font-size: 40px;
 }
 
+.card-group-1{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 50px;
+
+}
+
+.card-group-2{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-bottom: 10px;
+}
+
+.card-group-3{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
