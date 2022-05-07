@@ -65,7 +65,7 @@ span {
 }
 
 .header-right a:hover {
-  border-bottom: 2px solid red;
+    border-bottom: 2px solid red;
 }
 
 .header .logo {
@@ -85,7 +85,6 @@ span {
         display: block;
         text-align: left;
     }
-
     .header-right {
         float: none;
     }
@@ -195,7 +194,14 @@ input[type=submit]:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(136, 46, 46);
+    font-size: 25px;
+    font-family: fantasy;
+}
+
+.hero-text p {
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .hero-text button {
@@ -249,7 +255,6 @@ input[type=submit]:hover {
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 600px) {
-
     .column,
     input[type=submit] {
         width: 100%;
@@ -323,7 +328,6 @@ input[type=submit]:hover {
     transition: transform .2s;
 }
 
-
 .imgclass {
     border-radius: 20px;
     width: 265px;
@@ -364,7 +368,7 @@ footer {
 .footer-content {
     display: flex;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: flex-start;
     flex-direction: column;
     text-align: center;
 }
@@ -479,7 +483,6 @@ footer {
     height: 560;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://img.freepik.com/free-photo/colleagues-studying-together-exam_23-2149038427.jpg?t=st=1651643784~exp=1651644384~hmac=912751cbee9b47e13cd58cffd621ec888619d23700567693939c585c47341cd1&w=826");
     background-attachment: fixed;
-
 }
 
 .form1 {
@@ -491,46 +494,39 @@ footer {
     background-repeat: no-repeat;
     padding: 21px;
     width: 26%;
-    
-
-
 }
 
-#span1{
-    color:yellow;
+#span1 {
+    color: yellow;
 }
 
-.side{
+.side {
     position: absolute;
     top: 39px;
-    left:40px;
+    left: 40px;
     color: #e7e7e7;
     font-size: 24px;
 }
 
-.side2{
+.side2 {
     position: absolute;
     top: 6rem;
     color: yellow;
     left: 3rem;
     font-size: 4rem;
-
 }
 
-.side3{
+.side3 {
     position: absolute;
     top: 17rem;
     left: 3rem;
     color: white;
 }
 
-
-
-.fa-image{
+.fa-image {
     position: absolute;
     left: 20px;
     top: 27rem;
     font-size: 23px;
     color: white;
 }
-
