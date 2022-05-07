@@ -518,7 +518,7 @@ footer {
     width:102%;
 }
 
-.form1 {
+#form1 {
     position: absolute;
     right: 70px;
     top: 30px;
