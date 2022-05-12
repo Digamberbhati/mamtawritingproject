@@ -66,20 +66,12 @@ span {
     font-weight: 700;
 }
 
-.header-right a:hover {
-    border-bottom: 2px solid red;
-}
-
 .header .logo {
     width: 100px;
     height: auto;
 }
 
-.header-right {
-    float: right;
-    font-size: 60px;
-    margin-top: 30px;
-}
+
 
 @media screen and (max-width: 500px) {
     .header a {
@@ -226,7 +218,7 @@ input[type=submit]:hover {
 }
 
 
-/* Style the container/contact section */
+/* Style the container/contact section 
 
 .container {
     border-radius: 5px;
@@ -236,6 +228,7 @@ input[type=submit]:hover {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     background-image: url(D:\projects\robin\img\freelancerwork.jpg);
 }
+*/
 
 
 /* Create two columns that float next to eachother */
@@ -300,7 +293,7 @@ input[type=submit]:hover {
 
 #center{
  text-align: center;
- margin-top: 2rem;
+ margin-top: 7rem;
  font-size: 41px;
  font-weight: 700;
 color:black;
@@ -516,7 +509,7 @@ footer {
     height: 560;
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("https://img.freepik.com/free-photo/colleagues-studying-together-exam_23-2149038427.jpg?t=st=1651643784~exp=1651644384~hmac=912751cbee9b47e13cd58cffd621ec888619d23700567693939c585c47341cd1&w=826");
     background-attachment: fixed;
-    width:102%;
+    width:100%;
 }
 
 #form1 {
@@ -530,6 +523,10 @@ footer {
     width: 26%;
 }
 
+#fname{
+    width:96%;
+    line-height: 2.5;
+}
 #span1 {
     color: rgb(255, 0, 0);
 }
@@ -601,3 +598,15 @@ footer {
     margin-top: 50px;
     margin-bottom: 40px;
 }
+
+#logo{
+    height: 72px;
+
+ }
+
+ .nav-link{
+     color:black;
+ }
+ 
+
+         
